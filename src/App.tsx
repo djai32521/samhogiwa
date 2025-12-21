@@ -5,7 +5,7 @@ import FullGalleryPage from './pages/FullGalleryPage';
 
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/gallery" element={<FullGalleryPage />} />
