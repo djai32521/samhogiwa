@@ -39,8 +39,7 @@ const Footer: React.FC<FooterProps> = ({ scrollTo }) => {
                         <h4 className="font-bold mb-6">사업자 정보</h4>
                         <ul className="space-y-3 text-gray-500 text-sm">
                             <li>상호: 삼호건축기와</li>
-                            <li>대표: 전동식</li>
-                            <li>사업자번호: 401-17-06302</li>
+                            <li>대표: 이병집</li>
                             <li>Tel: 010-5276-3628</li>
                             <li>Address: 전국 협의 시공</li>
                         </ul>
